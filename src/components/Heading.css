@@ -1,0 +1,26 @@
+.yellow{
+  color: #fac921;
+    
+}
+
+.bold {
+  font-weight: 600 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.letsstart {
+  background-color: #fac921;
+  padding: 12px 25px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.cont{
+ background-color: rgb(182, 179, 179);
+ padding: 10px 25px;
+ border-radius: 5px;
+ width: fit-content;
+}

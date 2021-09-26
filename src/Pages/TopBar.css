@@ -1,0 +1,46 @@
+.TopBar {
+  background-color: #2b2c30;
+  height: 80px;
+  width: 100vw; 
+}
+
+.inner{
+  /* width: calc(100vw-80px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.GetInTouch {
+    margin-right: 1.35rem;
+  background-color: #fac921;
+  width: 80px;
+  height: 100% !important;
+  display: grid;
+  place-items: center;
+}
+
+.GetInTouch > a > i {
+  font-size: 22px;
+  color: white;
+}
+
+
+.navlinks {
+  list-style-type: none;
+  display: flex;
+}
+
+.navlinks > li {
+  font-size: 10px;
+  font-weight: 700;
+  border-right: 1px solid #fac921;
+  padding: 13px 35px;
+  margin-right: 5rem;
+  color:#6f7073 !important;
+}
+
+ul li a:hover {
+  color: #fac921 !important;
+}
