@@ -6,9 +6,9 @@ import Hero from "./Pages/Hero";
 function App() {
   return (
     <div>
-      {/* <LeftSideBar /> */}
+      <LeftSideBar />
       <TopBar />
-      {/* <Hero /> */}
+      <Hero />
     </div>
   );
 }
