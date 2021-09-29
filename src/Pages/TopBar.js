@@ -1,53 +1,23 @@
-import React from "react";
-import "./TopBar.css";
+import React from 'react'
+import "./TopBar.css"
 
-function TopBar() {
+const TopBar = () => {
   return (
     <>
       <div className="TopBar">
-        <div ClassName="inner">
-          <ul className="navlinks">
-            <li className="h5">
-              <a href="#" style={{ textDecoration: "none", color: "darkgray" }}>
-                HERO
-              </a>
-            </li>
-            <li className="h5">
-              <a href="#" style={{ textDecoration: "none", color: "darkgray" }}>
-                ABOUT
-              </a>
-            </li>
-            <li className="h5">
-              <a href="#" style={{ textDecoration: "none", color: "darkgray" }}>
-                RESUME
-              </a>
-            </li>
-            <li className="h5">
-              <a href="#" style={{ textDecoration: "none", color: "darkgray" }}>
-                SKILLS
-              </a>
-            </li>
-            <li className="h5">
-              <a href="#" style={{ textDecoration: "none", color: "darkgray" }}>
-                PROJECTS
-              </a>
-            </li>
-            <li className="h5">
-              <a href="#" style={{ textDecoration: "none", color: "darkgray" }}>
-                CONTACT
-              </a>
-            </li>
-          </ul>
-
-          <div className="GetInTouch">
-            <a href="#">
-              <i class="far fa-envelope"></i>
-            </a>
-          </div>
+       <ul className="navigation">
+         <li><a href="#"> <i class="fas fa-minus"></i> Home </a></li>
+         <li><a href="#"> <i class="fas fa-minus"></i> About </a></li>
+         <li><a href="#"> <i class="fas fa-minus"></i> Resume </a></li>
+         <li><a href="#"> <i class="fas fa-minus"></i> Skills </a></li>
+         <li><a href="#"> <i class="fas fa-minus"></i> Projects </a></li>
+        </ul>
+        <div className="contact">
+          <a className="GetInTouch" href="#"><i  class="far fa-envelope"></i></a>
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default TopBar;
+export default TopBar

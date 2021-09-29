@@ -8,11 +8,11 @@ function Heading() {
         <Row>
           <Col md={2}></Col>
           <Col md={8}>
-            <h1 className="display-2 bold" >Hey there!</h1>
-            <h1 className="display-3 bold">I'm Yogeshwar Pawade</h1>
-            <h1 className="display-3 bold">Enthusiastic <span className="yellow">Software Developer</span></h1>
-            <h1 className="bold my-5 cont">I Create Professional Content</h1>
-            <button className="letsstart bold">LET'S START</button>
+            <h3 className=" bold" >Hey there!</h3>
+            <h3 className=" bold">I'm Yogeshwar Pawade</h3>
+            <h3 className=" bold">Enthusiastic <span className="yellow">Software Developer</span></h3>
+            <h3 className="cont">I Create Professional Content</h3>
+            <button className="letsstart"><i class="fas fa-minus"></i>LET'S START</button>
             </Col>
         </Row>
       </>

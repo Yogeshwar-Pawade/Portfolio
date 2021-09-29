@@ -1,46 +1,49 @@
-.TopBar {
+.TopBar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #2b2c30;
   height: 80px;
-  width: 100vw; 
+  position: fixed;
+  width:99vw;
 }
-
-.inner{
-  /* width: calc(100vw-80px); */
-  display: flex;
-  justify-content: center;
+.navigation{
+ display:flex;
+ list-style-type: none;
+ justify-content: space-between;
+ align-items:center;
+ padding-left:111px;
+}
+.navigation>li{
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 0px 0px 10px;
+  margin-right: 5rem;
+}
+ul li a{
+  color:#6f7073 !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  display:flex;
   align-items: center;
-  padding-left: 80px;
+  letter-spacing: 2.5px;
 }
-
-.GetInTouch {
-    margin-right: 1.35rem;
-  background-color: #fac921;
-  width: 80px;
-  height: 100% !important;
-  display: grid;
-  place-items: center;
+ul li a:hover {
+  color: #fac921 !important;
 }
-
-.GetInTouch > a > i {
+.GetInTouch >i {
   font-size: 22px;
   color: white;
 }
-
-
-.navlinks {
-  list-style-type: none;
-  display: flex;
+.GetInTouch{
+  background-color: #fac921;
+  width: 80px;
+  height: 80px !important;
+  display: grid;
+  place-items: center;
 }
-
-.navlinks > li {
-  font-size: 10px;
-  font-weight: 700;
-  border-right: 1px solid #fac921;
-  padding: 13px 35px;
-  margin-right: 5rem;
-  color:#6f7073 !important;
-}
-
-ul li a:hover {
-  color: #fac921 !important;
+.fa-minus{
+  font-size: 18px !important;
+  margin-right: 1rem;
+  font-weight: 600 !important;
 }

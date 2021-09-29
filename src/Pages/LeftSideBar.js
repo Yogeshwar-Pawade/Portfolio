@@ -9,7 +9,7 @@ function LeftSideBar() {
         <a href="#">
           <i class="fas fa-bars ham"></i>
         </a>
-        <h5>MENU</h5>
+        <h5 className="menu">MENU</h5>
       </div>
       <div className="line">
     
