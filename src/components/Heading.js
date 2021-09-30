@@ -4,18 +4,18 @@ import "./Heading.css";
 
 function Heading() {
     return (
-      <>
-        <Row>
+      <div className="main">
+        <Row className="mainrow">
           <Col md={2}></Col>
           <Col md={8}>
-            <h3 className=" bold" >Hey there!</h3>
-            <h3 className=" bold">I'm Yogeshwar Pawade</h3>
-            <h3 className=" bold">Enthusiastic <span className="yellow">Software Developer</span></h3>
-            <h3 className="cont">I Create Professional Content</h3>
-            <button className="letsstart"><i class="fas fa-minus"></i>LET'S START</button>
+            <h1 className=" bold" >Hey there!</h1>
+            <h1 className=" bold">I'm Yogeshwar Pawade</h1>
+            <h1 className=" bold">Enthusiastic <span className="yellow">Software Developer</span></h1>
+            <h4 className="cont">I Create Professional Content</h4>
+            <button className="letsstart">LET'S START</button>
             </Col>
         </Row>
-      </>
+      </div>
     );
 }
 
