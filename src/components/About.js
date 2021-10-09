@@ -18,15 +18,43 @@ function About() {
         </p>
         <div>
           <div>
-            <div></div>
-            <div></div>
+            <div>Leadership</div>
+            <div>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+              placeat numquam perferendis fugiat delectus aut dolore earum magni
+              illum adipisci eligendi esse, iure ipsum ullam possimus commodi
+              optio aperiam excepturi.
+            </div>
           </div>
           <div>
-            <div></div>
-            <div></div>
+            <div>AI/ML</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              assumenda dolores ea, aliquid alias, eum ipsam temporibus minima
+              cupiditate eaque ab expedita odio. Neque, laudantium impedit
+              labore harum libero non!
+            </div>
+          </div>
+          <div>
+            <div>Web Development</div>
+            <div>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+              placeat numquam perferendis fugiat delectus aut dolore earum magni
+              illum adipisci eligendi esse, iure ipsum ullam possimus commodi
+              optio aperiam excepturi.
+            </div>
+          </div>
+          <div>
+            <div>Sports/esports</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              assumenda dolores ea, aliquid alias, eum ipsam temporibus minima
+              cupiditate eaque ab expedita odio. Neque, laudantium impedit
+              labore harum libero non!
+            </div>
           </div>
         </div>
-        <button></button>
+        <button>Download CV</button>
       </div>
     </div>
   );
