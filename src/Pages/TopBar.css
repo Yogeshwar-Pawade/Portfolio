@@ -32,6 +32,7 @@ ul li a:hover {
   color: #fac921 !important;
 }
 .GetInTouch >i {
+  text-decoration: none;
   font-size: 22px;
   color: white;
 }
