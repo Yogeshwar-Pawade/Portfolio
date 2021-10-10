@@ -19,7 +19,7 @@
 }
 
 .About{
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     padding-left: 80px;
 }
@@ -31,4 +31,33 @@
 
 .Aboutright{
     width: 750px;
+}
+
+.parent{
+display: flex;
+}
+
+.subdiv{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.subdiv-content{
+    font-weight: 600;
+    color: #a4a8b6;
+    line-height: 25px;
+    font-size: 12px;
+
+}
+
+.subdiv-title{
+    color: #a4a8b6;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Detail{
+    color: #a4a8b6;
+    font-weight: 600;
+    font-size: 12px;
 }

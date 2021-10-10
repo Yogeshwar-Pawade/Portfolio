@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="About">
       <div className="Aboutleft">
-        <img src="https://picsum.photos/420/650"></img>
+        <img src="https://picsum.photos/420/600"></img>
       </div>
       <div className="Aboutright">
         <h1 className="Aboutheading">
@@ -21,37 +21,39 @@ function About() {
           qui quam aliquid harum culpa eveniet delectus, ipsum enim modi ullam
           maxime!
         </p>
-        <div>
-          <div>
-            <div>Leadership</div>
-            <div>
+        <div className="parent">
+          <div className="subdiv">
+            <div className="subdiv-title">Leadership</div>
+            <div className="subdiv-content">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
               placeat numquam perferendis fugiat delectus aut dolore earum magni
               illum adipisci eligendi esse, iure ipsum ullam possimus commodi
               optio aperiam excepturi.
             </div>
           </div>
-          <div>
-            <div>AI/ML</div>
-            <div>
+          <div className="subdiv">
+            <div className="subdiv-title">AI/ML</div>
+            <div className="subdiv-content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
               assumenda dolores ea, aliquid alias, eum ipsam temporibus minima
               cupiditate eaque ab expedita odio. Neque, laudantium impedit
               labore harum libero non!
             </div>
           </div>
-          <div>
-            <div>Web Development</div>
-            <div>
+        </div>
+        <div className="parent">
+          <div className="subdiv">
+            <div className="subdiv-title">Web Development</div>
+            <div className="subdiv-content">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
               placeat numquam perferendis fugiat delectus aut dolore earum magni
               illum adipisci eligendi esse, iure ipsum ullam possimus commodi
               optio aperiam excepturi.
             </div>
           </div>
-          <div>
-            <div>Sports/esports</div>
-            <div>
+          <div className="subdiv">
+            <div className="subdiv-title">Sports/esports</div>
+            <div className="subdiv-content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
               assumenda dolores ea, aliquid alias, eum ipsam temporibus minima
               cupiditate eaque ab expedita odio. Neque, laudantium impedit
