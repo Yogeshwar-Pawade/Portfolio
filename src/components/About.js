@@ -1,9 +1,14 @@
 import React from "react";
 
+import "./About.css";
+import Resume from "../Resume.pdf"
+
 function About() {
   return (
     <div className="About">
-      <div className="Aboutleft"></div>
+      <div className="Aboutleft">
+        <img src="https://picsum.photos/420/650"></img>
+      </div>
       <div className="Aboutright">
         <h1 className="Aboutheading">
           Specialization in Artificial Intelligence & Machine Learning,
@@ -54,7 +59,9 @@ function About() {
             </div>
           </div>
         </div>
-        <button>Download CV</button>
+        <a className="Download" href={Resume} download="Yogeshwar's Resume.pdf">
+          Download CV
+        </a>
       </div>
     </div>
   );
