@@ -41,14 +41,6 @@
   letter-spacing: 2px;
 }
 
-.letsstart > .fa-minus{
-  display: none;
-}
-
-.letsstart:hover > .fa-minus{
-  display: inline-block;
-}
-
 .main{
   height: 100vh;
   background-color: #2a2a2e;

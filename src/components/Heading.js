@@ -4,7 +4,7 @@ import "./Heading.css";
 
 function Heading() {
     return (
-      <div className="main">
+      <div className="main" id="HOME">
         <Row className="mainrow">
           <Col md={2}></Col>
           <Col md={8}>
