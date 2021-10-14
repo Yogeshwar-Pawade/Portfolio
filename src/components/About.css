@@ -11,7 +11,7 @@
   letter-spacing: 2px;
   width: fit-content;
   text-decoration: none !important;
-  margin-top: 25px !important;
+  margin-top: 30px !important;
   display: block;
   
 }
@@ -21,9 +21,11 @@
 }
 
 .About {
-  margin-top: 50px;
+  height: calc(100vh - 80px);
   display: flex;
   padding-left: 80px;
+  padding-top: 50px;
+  
 }
 
 .Aboutleft {

@@ -1,0 +1,30 @@
+.Fact {
+  height: calc(100vh);
+  padding-left: 80px !important;
+  padding-top: 50px;
+  background-color: #2a2a2e;
+}
+
+.Verticaltext {
+  transform: rotate(-90deg);
+  color: white;
+}
+
+.Factheading{
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: white;
+}
+
+.Factline{
+    color: white;
+}
+
+.Facthighlight{
+    font-weight: 900;
+    color:  #fac921;
+}
+
+.Factdetail{
+    color: white;
+}

@@ -1,10 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./TopBar.css"
 
+
 const TopBar = () => {
+        useEffect(() => {
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+})  
   return (
     <>
-      <div className="TopBar">
+      <div className="TopBar"> 
        <ul className="navigation">
          <li><a href="#HOME"> <i class="fas fa-minus"></i> Home </a></li>
          <li><a href="#ABOUT"> <i class="fas fa-minus"></i> About </a></li>
