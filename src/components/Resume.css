@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Rubik+Mono+One&display=swap");
+
+.Resume {
+  height: calc(100vh - 80px);
+  padding-left: 80px !important;
+  padding-top: 20px;
+  background-color: whitesmoke;
+}
+
+.backslash {
+  font-size: 160px;
+  font-weight: 900;
+  color: rgba(192, 192, 192, 0.20);
+  font-family: "Bungee", cursive;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.mainheading {
+  padding-left: 150px;
+}
+
+.Rmain {
+  z-index: 2;
+  position: relative;
+  top: -100px;
+}
+
+.Rhighlight {
+  font-family: "Bungee", cursive;
+  font-weight: 900;
+  color: rgba(250, 201, 33, 0.20);
+}
+
+.Shighlight {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: rgb(250, 201, 33);
+}
+
+.mainheading {
+  letter-spacing: 1px;
+  font-weight: 900 !important;
+  font-size: 40px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: -2px;
+  padding-left: 140px;
+}
+
+.mainline {
+  border: 0.5px solid #2b2c30;
+  opacity: 0.55;
+  width: 15rem;
+  position: relative;
+  left: -29rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Rdetail {
+  color: #a4a8b6;
+  width: 50%;
+  margin-left: 140px;
+  font-weight: 700;
+}

@@ -22,7 +22,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
          <li><a href="#ABOUT"> <i class="fas fa-minus"></i> About </a></li>
          <li><a href="#RESUME"> <i class="fas fa-minus"></i> Resume </a></li>
          <li><a href="#SKILLS"> <i class="fas fa-minus"></i> Skills </a></li>
-         <li><a href="#PROJECTS"> <i class="fas fa-minus"></i> Projects </a></li>
+         <li><a href="#CONTACT"> <i class="fas fa-minus"></i> Contact </a></li>
         </ul>
         <div className="contact">
           <a className="GetInTouch" href="#"><i  class="far fa-envelope"></i></a>

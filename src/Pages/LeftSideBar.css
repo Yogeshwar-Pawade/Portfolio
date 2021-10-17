@@ -29,7 +29,7 @@
 
 .share {
   font-size: 22px;
-  color: white;
+  color: whitesmoke;
 }
 
 .sharebox {
@@ -56,9 +56,8 @@
   outline: none !important;
   background-color: #2b2c30;
   text-decoration: none !important;
-  
 }
-a{
+a {
   text-decoration: none !important;
 }
 
@@ -73,16 +72,14 @@ a{
   align-items: center;
 }
 
-.line{
+.line {
   position: absolute;
   left: 40px;
   top: 20rem;
   height: 5rem;
-  border-left: 0.5px solid orange;
+  border-left: 0.5px solid #fac921;
 }
 
-.menu{
+.menu {
   letter-spacing: 2.5px;
 }
-
-
