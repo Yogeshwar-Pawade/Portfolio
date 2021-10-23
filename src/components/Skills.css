@@ -10,16 +10,20 @@
 }
 
 .customize {
-  margin-left: 5rem;
+margin-left: 20px;
 }
 
 .donutchart {
   display: flex;
-  margin-left: 35rem;
+  margin-left: 38rem;
   margin-top: 10px;
   position: relative;
-  top: -200px;
+  top: -180px;
   z-index: 4;
+}
+
+.spacing{
+  margin-left: 60px;
 }
 
 .Smain {
@@ -35,6 +39,7 @@
   margin-top: 20px;
   font-weight: 600;
 }
+
 
 .Sheading {
   font-size: 24px;
@@ -58,7 +63,7 @@
 .Secondmain{
   z-index: 2;
   position: relative;
-  top: -70px;
+  top: -100px;
   left: 280px;
 }
 
@@ -67,14 +72,14 @@
   margin-top: 15px;
   color: #fac921;
   position: relative;
-  top: -12rem;
+  top: -14rem;
   left: 50rem;
 }
 
 .Planguage{
   position: relative;
   left: 50rem;
-  top: -11rem;
+  top: -13rem;
   font-size: 14px;
   font-weight: 600;
 }
@@ -97,4 +102,31 @@ margin-left: 33rem;
 
 .percent5{
 margin-left: 33.25rem;
+}
+
+.donutchart1 {
+  display: flex;
+  margin-left: 33rem;
+  margin-top: 10px;
+  position: relative;
+  top: -180px;
+  z-index: 4;
+}
+
+.line1 {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  bottom: 0;
+  margin-right: 20px;
+  border-left: 3.5px solid #fac921;
+}
+
+.tags{
+text-align: center;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+font-weight: 600;
+letter-spacing: 1.5px;
 }
