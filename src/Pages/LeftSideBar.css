@@ -1,5 +1,5 @@
 .LeftSideBar {
-  z-index: 2;
+  z-index: 11;
   position: fixed;
   background-color: #2b2c30;
   height: 100vh;
@@ -57,6 +57,7 @@
   background-color: #2b2c30;
   text-decoration: none !important;
 }
+
 a {
   text-decoration: none !important;
 }

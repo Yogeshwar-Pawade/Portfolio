@@ -3,6 +3,7 @@ import About from "../components/About";
 import Heading from "../components/Heading";
 import Fact from "../components/Fact";
 import Resume from "../components/Resume"
+import Skills from "../components/Skills";
 import "./Hero.css";
 
 function Hero() {
@@ -12,6 +13,7 @@ function Hero() {
       <About></About>
       <Fact></Fact>
       <Resume></Resume>
+      <Skills></Skills>
     </div>
   );
 }

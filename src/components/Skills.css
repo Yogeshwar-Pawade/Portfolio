@@ -1,0 +1,6 @@
+.Skills{
+    height: calc(100vh - 80px);
+  padding-left: 80px !important;
+  padding-top: 20px;
+  background-color: whitesmoke;
+}
