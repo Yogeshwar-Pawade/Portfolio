@@ -79,7 +79,7 @@
 .Sname{
     font-size: 16px;
     font-weight: 600;
-    width: 25rem;
+    width: 27rem;
     position: relative;
     display: flex;
     padding: 15px 0px 15px 35px;
@@ -93,9 +93,8 @@
 
 .Rdescription{
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 40px;
   width: 55rem;
-  color: #a4a8b6;
   font-weight: 700;
 
 }
@@ -109,6 +108,13 @@
 
 .fa-school{
   margin-right: 40px !important ;
+  font-size: 45px;
+  color: #fac921;
+  opacity: 0.5;
+}
+
+.fa-university{
+  margin-right: 50px !important ;
   font-size: 45px;
   color: #fac921;
   opacity: 0.5;

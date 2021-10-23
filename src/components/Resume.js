@@ -39,7 +39,7 @@ function Resume() {
         </div>
         <div className="Rcontent">
           <h3 className="Sname">
-            <i class="fas fa-graduation-cap"></i>
+            <i class="fas fa-university"></i>
             <div className="justify-content-center d-flex flex-column">
               St. Paul Junior College.
               <div className="year">2017-2019</div>

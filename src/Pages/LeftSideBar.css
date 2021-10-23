@@ -18,13 +18,13 @@
 
 .silvericon {
   color: #6f7073;
-  font-size: 13px;
+  font-size: 22px;
   margin-bottom: 18px;
-  border: 1px solid lightgray;
   padding: 7px;
 }
-.silvericon:hover {
-  border-radius: 50%;
+
+.silvericon:hover{
+  color: #fac921;
 }
 
 .share {
@@ -40,10 +40,13 @@
 }
 
 .links {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 15rem;
+  position: relative;
+  left: -20px;
 }
 
 .ham {
@@ -83,4 +86,18 @@ a {
 
 .menu {
   letter-spacing: 2.5px;
+}
+
+#tooltip-right > .tooltip-inner {
+  background-color: #fac921;
+  color: whitesmoke;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1.25px;
+}
+
+.tooltip [class$="arrow"] {
+  visibility: hidden;
 }
