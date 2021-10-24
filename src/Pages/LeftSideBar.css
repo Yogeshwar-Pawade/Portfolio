@@ -33,10 +33,10 @@
 }
 
 .sharebox {
-  background-color: #fac921;
-  height: 80px;
-  display: grid;
-  place-items: center;
+  background-color: #fac921 !important;
+  height: 80px !important;
+  display: grid !important;
+  place-items: center !important;
 }
 
 .links {

@@ -17,8 +17,10 @@ function Skills() {
               Developer <span className="hskills">Skills</span>
             </h2>
             <p className="Sdetail">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              illum, veniam ad modi soluta ex.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod in
+              maiores possimus enim consectetur pariatur. Quo quisquam
+              perspiciatis blanditiis, odit accusantium quidem libero.
+              Doloremque eligendi optio, provident culpa autem incidunt!
             </p>
           </div>
         </div>
@@ -26,6 +28,7 @@ function Skills() {
       <div className="donutchart">
         <div className="spacing">
           <Donut
+            animate="true"
             color="black"
             indicatorColor="#fac921"
             linecap="round"
@@ -35,7 +38,7 @@ function Skills() {
           >
             <DonutValue
               style={{
-                fontSize: "26px",
+                fontSize: "20px",
               }}
             >
               80
@@ -45,6 +48,7 @@ function Skills() {
         </div>
         <div className="spacing">
           <Donut
+            animate="true"
             color="black"
             indicatorColor="#fac921"
             linecap="round"
@@ -54,7 +58,7 @@ function Skills() {
           >
             <DonutValue
               style={{
-                fontSize: "26px",
+                fontSize: "20px",
               }}
             >
               70
@@ -64,6 +68,7 @@ function Skills() {
         </div>
         <div className="spacing">
           <Donut
+            animate="true"
             color="black"
             indicatorColor="#fac921"
             linecap="round"
@@ -73,7 +78,7 @@ function Skills() {
           >
             <DonutValue
               style={{
-                fontSize: "26px",
+                fontSize: "20px",
               }}
             >
               40
@@ -90,8 +95,10 @@ function Skills() {
               Programming <span className="hskills">Skills</span>
             </h2>
             <p className="Sdetail">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              illum, veniam ad modi soluta ex.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              quia, tempora optio architecto blanditiis aliquam, recusandae a
+              reprehenderit minus ut quod. Minima, voluptate porro! Quis magnam
+              dolorum labore dolore debitis!
             </p>
           </div>
         </div>
@@ -149,15 +156,17 @@ function Skills() {
         />
       </div>
       <div>
-        <div className="Smain">
+        <div className="Smain1">
           <div className="line1"></div>
           <div>
             <h2 className="Sheading">
               Language <span className="hskills">Skills</span>
             </h2>
             <p className="Sdetail">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              illum, veniam ad modi soluta ex.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi at
+              quidem accusamus nam maxime rerum quae eveniet minus nesciunt
+              totam accusantium, dolorem ipsam animi excepturi? Sit et quasi non
+              odio.
             </p>
           </div>
         </div>
@@ -165,6 +174,7 @@ function Skills() {
       <div className="donutchart1">
         <div className="spacing">
           <Donut
+            animate="true"
             color="black"
             indicatorColor="#fac921"
             linecap="round"
@@ -174,7 +184,7 @@ function Skills() {
           >
             <DonutValue
               style={{
-                fontSize: "26px",
+                fontSize: "20px",
               }}
             >
               75
@@ -184,6 +194,7 @@ function Skills() {
         </div>
         <div className="spacing">
           <Donut
+            animate="true"
             color="black"
             indicatorColor="#fac921"
             linecap="round"
@@ -193,7 +204,7 @@ function Skills() {
           >
             <DonutValue
               style={{
-                fontSize: "26px",
+                fontSize: "20px",
               }}
             >
               80
@@ -203,6 +214,7 @@ function Skills() {
         </div>
         <div className="spacing">
           <Donut
+            animate="true"
             color="black"
             indicatorColor="#fac921"
             linecap="round"
@@ -212,7 +224,7 @@ function Skills() {
           >
             <DonutValue
               style={{
-                fontSize: "26px",
+                fontSize: "20px",
               }}
             >
               50
@@ -222,6 +234,7 @@ function Skills() {
         </div>
         <div className="spacing">
           <Donut
+            animate="true"
             color="black"
             indicatorColor="#fac921"
             linecap="round"
@@ -231,7 +244,7 @@ function Skills() {
           >
             <DonutValue
               style={{
-                fontSize: "26px",
+                fontSize: "20px",
               }}
             >
               100

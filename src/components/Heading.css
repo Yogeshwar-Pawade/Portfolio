@@ -9,6 +9,8 @@
 }
 
 .letsstart {
+  display: block;
+  text-decoration: none;
   background-color: #fac921;
   padding: 15px 30px;
   outline: none;
@@ -21,7 +23,8 @@
   letter-spacing: 2px;
   width: 150px;
   transition: 1s;
-  margin-top: 40px;
+  margin-top: 30px;
+  text-align: center !important;
 }
 
 .cont {
@@ -37,6 +40,8 @@
 }
 
 .letsstart:hover {
+  text-align: center;
+  color: whitesmoke;
   width: 180px;
   letter-spacing: 2px;
 }

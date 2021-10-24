@@ -9,7 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
 
         document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+          behavior: 'smooth'
         });
     });
 });
@@ -25,7 +25,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
          <li><a href="#CONTACT"> <i class="fas fa-minus"></i> Contact </a></li>
         </ul>
         <div className="contact">
-          <a className="GetInTouch" href="#"><i  class="far fa-envelope"></i></a>
+          <a className="GetInTouch" href="#CONTACT"><i  class="far fa-envelope"></i></a>
         </div>
       </div>
     </>

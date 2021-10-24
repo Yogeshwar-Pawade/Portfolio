@@ -1,5 +1,6 @@
 .Skills {
-  height: calc(150vh - 80px);
+  height: calc(145vh);
+  /* height: 100vh; */
   padding-left: 80px !important;
   padding-top: 20px;
   background-color: whitesmoke;
@@ -18,7 +19,7 @@ margin-left: 20px;
   margin-left: 38rem;
   margin-top: 10px;
   position: relative;
-  top: -180px;
+  top: -230px;
   z-index: 4;
 }
 
@@ -63,7 +64,7 @@ margin-left: 20px;
 .Secondmain{
   z-index: 2;
   position: relative;
-  top: -100px;
+  top: -130px;
   left: 280px;
 }
 
@@ -72,14 +73,14 @@ margin-left: 20px;
   margin-top: 15px;
   color: #fac921;
   position: relative;
-  top: -14rem;
+  top: -18rem;
   left: 50rem;
 }
 
 .Planguage{
   position: relative;
   left: 50rem;
-  top: -13rem;
+  top: -17rem;
   font-size: 14px;
   font-weight: 600;
 }
@@ -109,14 +110,14 @@ margin-left: 33.25rem;
   margin-left: 33rem;
   margin-top: 10px;
   position: relative;
-  top: -180px;
+  top: -280px;
   z-index: 4;
 }
 
 .line1 {
   position: absolute;
   top: 0;
-  left: -15px;
+  left: -20px;
   bottom: 0;
   margin-right: 20px;
   border-left: 3.5px solid #fac921;
@@ -129,4 +130,11 @@ margin-left: auto;
 margin-right: auto;
 font-weight: 600;
 letter-spacing: 1.5px;
+}
+
+.Smain1{
+   z-index: 2;
+  position: relative;
+  top: -140px;
+  left: 100px;
 }

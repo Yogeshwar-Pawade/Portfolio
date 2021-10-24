@@ -12,7 +12,7 @@ function Heading() {
             <h1 className=" bold">I'm Yogeshwar Pawade</h1>
             <h1 className=" bold">Enthusiastic <span className="yellow">Software Developer</span></h1>
             <h4 className="cont">I Create Professional Content</h4>
-            <button className="letsstart" onClick="ABOUT">LET'S START</button>
+            <a className="letsstart" href="#ABOUT">LET'S START</a>
             </Col>
         </Row>
       </div>

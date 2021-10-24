@@ -1,6 +1,7 @@
 import React from "react";
-import "./LeftSideBar.css"
+import "./LeftSideBar.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import { WhatsappShareButton } from "react-share";
 
 function LeftSideBar() {
   return (
@@ -29,7 +30,10 @@ function LeftSideBar() {
                 </Tooltip>
               }
             >
-              <a href="#">
+              <a
+                href="https://www.instagram.com/yogeshwar.pawade007/"
+                target="_blank"
+              >
                 <i class="fab fa-instagram silvericon"></i>
               </a>
             </OverlayTrigger>
@@ -42,7 +46,10 @@ function LeftSideBar() {
               placement={placement}
               overlay={<Tooltip id={`tooltip-${placement}`}>LINKEDIN</Tooltip>}
             >
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/yogeshwar-pawade-233594213/"
+                target="_blank"
+              >
                 <i class="fab fa-linkedin silvericon"></i>
               </a>
             </OverlayTrigger>
@@ -55,7 +62,7 @@ function LeftSideBar() {
               placement={placement}
               overlay={<Tooltip id={`tooltip-${placement}`}>GITHUB</Tooltip>}
             >
-              <a href="#">
+              <a href="https://github.com/Yogeshwar-Pawade" target="_blank">
                 <i class="fab fa-github silvericon"></i>
               </a>
             </OverlayTrigger>
@@ -68,18 +75,20 @@ function LeftSideBar() {
               placement={placement}
               overlay={<Tooltip id={`tooltip-${placement}`}>YOUTUBE</Tooltip>}
             >
-              <a href="#">
+              <a href="#" target="_blank">
                 <i class="fab fa-youtube silvericon"></i>
               </a>
             </OverlayTrigger>
           ))}
         </li>
       </ul>
-      <div className="sharebox">
-        <a href="#">
-          <i class="fas fa-share share"></i>
-        </a>
-      </div>
+      <WhatsappShareButton
+        className="sharebox"
+        title="Please do visit my portfolio --> "
+        url="ABCD"
+      >
+        <i class="fas fa-share share"></i>
+      </WhatsappShareButton>
     </div>
   );
 }

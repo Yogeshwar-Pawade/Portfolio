@@ -5,6 +5,7 @@ import Fact from "../components/Fact";
 import Resume from "../components/Resume"
 import Skills from "../components/Skills";
 import "./Hero.css";
+import Contact from "../components/Contact";
 
 function Hero() {
   return (
@@ -14,6 +15,7 @@ function Hero() {
       <Fact></Fact>
       <Resume></Resume>
       <Skills></Skills>
+      <Contact></Contact>
     </div>
   );
 }
