@@ -100,3 +100,22 @@ a {
 .tooltip [class$="arrow"] {
   visibility: hidden;
 }
+
+/* Responsive */
+@media only screen and (max-width: 768px){
+.LeftSideBar{
+  display: none;
+}
+}
+
+@media only screen and (max-width: 426px){
+.LeftSideBar{
+  display: none;
+}
+}
+
+@media only screen and (max-width: 376px){
+.LeftSideBar{
+  display: none;
+}
+}

@@ -16,20 +16,52 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 })  
   return (
     <>
-      <div className="TopBar"> 
-       <ul className="navigation">
-         <li><a href="#HOME"> <i class="fas fa-minus"></i> Home </a></li>
-         <li><a href="#ABOUT"> <i class="fas fa-minus"></i> About </a></li>
-         <li><a href="#RESUME"> <i class="fas fa-minus"></i> Resume </a></li>
-         <li><a href="#SKILLS"> <i class="fas fa-minus"></i> Skills </a></li>
-         <li><a href="#CONTACT"> <i class="fas fa-minus"></i> Contact </a></li>
+      <div className="TopBar">
+        <img
+          src={process.env.PUBLIC_URL + "/Assets/logo.png"}
+          alt="logo"
+          className="logo TopBar-logo" 
+        />
+        <ul className="navigation">
+          <li>
+            <a href="#HOME">
+              {" "}
+              <i class="fas fa-minus"></i> Home{" "}
+            </a>
+          </li>
+          <li>
+            <a href="#ABOUT">
+              {" "}
+              <i class="fas fa-minus"></i> About{" "}
+            </a>
+          </li>
+          <li>
+            <a href="#RESUME">
+              {" "}
+              <i class="fas fa-minus"></i> Resume{" "}
+            </a>
+          </li>
+          <li>
+            <a href="#SKILLS">
+              {" "}
+              <i class="fas fa-minus"></i> Skills{" "}
+            </a>
+          </li>
+          <li>
+            <a href="#CONTACT">
+              {" "}
+              <i class="fas fa-minus"></i> Contact{" "}
+            </a>
+          </li>
         </ul>
         <div className="contact">
-          <a className="GetInTouch" href="#CONTACT"><i  class="far fa-envelope"></i></a>
+          <a className="GetInTouch" href="#CONTACT">
+            <i class="far fa-envelope"></i>
+          </a>
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default TopBar

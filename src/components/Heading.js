@@ -6,7 +6,7 @@ function Heading() {
     return (
       <div className="main" id="HOME">
         <Row className="mainrow">
-          <Col md={2}></Col>
+          <Col md={2} className="column"></Col>
           <Col md={8}>
             <h1 className=" bold" >Hey there!</h1>
             <h1 className=" bold">I'm Yogeshwar Pawade</h1>
