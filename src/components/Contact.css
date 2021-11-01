@@ -3,7 +3,6 @@
   padding-left: 80px !important;
   padding-top: 20px;
   background-color: #2a2a2e;
-
 }
 
 .Contact .title {
@@ -60,9 +59,8 @@ textarea {
 
 .Cmain {
   z-index: 2;
-  position: relative;
-  top: 50px;
-  left: 80px;
+  margin-left: 80px;
+  margin-top: 30px;
 }
 
 .Cheading {

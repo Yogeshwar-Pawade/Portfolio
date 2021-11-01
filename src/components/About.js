@@ -7,7 +7,6 @@ function About() {
   return (
     <div className="About" id="ABOUT">
       <div className="Aboutleft">
-        <div className="Imagename">NOVUS</div>
         <img src="https://picsum.photos/420/600" className="Aboutimage"></img>
       </div>
       <div className="Aboutright">

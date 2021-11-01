@@ -1,6 +1,8 @@
 .LeftSideBar {
   z-index: 11;
   position: fixed;
+  top: 0;
+  left: 0;
   background-color: #2b2c30;
   height: 100vh;
   width: 80px;
@@ -44,8 +46,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15rem;
-  position: relative;
 }
 
 .ham {
@@ -76,11 +76,11 @@ a {
 }
 
 .line {
-  position: absolute;
-  left: 40px;
-  top: 20rem;
   height: 5rem;
   border-left: 0.5px solid #fac921;
+  margin-left: 40px;
+  display: flex;
+  margin-top: 10rem;
 }
 
 .menu {
@@ -101,21 +101,3 @@ a {
   visibility: hidden;
 }
 
-/* Responsive */
-@media only screen and (max-width: 768px){
-.LeftSideBar{
-  display: none;
-}
-}
-
-@media only screen and (max-width: 426px){
-.LeftSideBar{
-  display: none;
-}
-}
-
-@media only screen and (max-width: 376px){
-.LeftSideBar{
-  display: none;
-}
-}

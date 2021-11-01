@@ -3,9 +3,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: #2b2c30;
   height: 80px;
-  position: fixed;
   width: 99vw;
 }
 .navigation {
@@ -48,53 +50,4 @@ ul li a:hover {
   font-size: 18px !important;
   margin-right: 1rem;
   font-weight: 600 !important;
-}
-
-.TopBar-logo{
-  display: none;
-}
-
-/* Responsive */
-@media only screen and (max-width: 768px){
-.navigation{
-  display: none;
-}
-
-.TopBar{
-  width: 100vw;
-}
-
-.TopBar-logo{
-  display: block;
-  margin-left: 30px;
-}
-}
-
-@media only screen and (max-width: 426px){
-  .navigation{
-  display: none;
-}
-
-.TopBar{
-  width: 100vw;
-}
-
-.TopBar-logo{
-  display: block;
-  margin-left: 30px;
-}
-}
-
-@media only screen and (max-width: 376px){
-  .navigation{
-  display: none;
-}
-
-.TopBar{
-  width: 100vw;
-}
-
-.TopBar-logo{
-  display: block;
-}
 }

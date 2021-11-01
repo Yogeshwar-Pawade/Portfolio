@@ -17,11 +17,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   return (
     <>
       <div className="TopBar">
-        <img
-          src={process.env.PUBLIC_URL + "/Assets/logo.png"}
-          alt="logo"
-          className="logo TopBar-logo" 
-        />
         <ul className="navigation">
           <li>
             <a href="#HOME">

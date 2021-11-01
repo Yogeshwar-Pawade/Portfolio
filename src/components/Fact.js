@@ -5,16 +5,13 @@ function Fact() {
   return (
     <div className="Fact">
       <h1 className="Verticaltext">NUMBERS</h1>
-      <hr className="Factlinebold"></hr>
       <p className="Factheading">
         SOME INTRESTING <span className="Facthighlight">FACTS</span>
       </p>
       <p className="Factheading">ABOUT ME</p>
-      <hr className="Factline"></hr>
       <p className="Factdetail">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-        deleniti nemo voluptatem, eligendi, facere ea culpa labore numquam
-        error, impedit autem atque sequi dolore similique.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis alias suscipit hic. In fugiat tenetur voluptates aut nisi reprehenderit fugit, accusantium est praesentium voluptatem commodi. Autem placeat, hic modi ab omnis distinctio quidem consequatur beatae consequuntur, fuga corrupti sunt maiores, doloribus at itaque officiis nesciunt impedit repellat rem? Vero, reprehenderit.
+
       </p>
       <div className="stats">
         <div className="statdiv">

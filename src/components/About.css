@@ -85,16 +85,3 @@
   height: 90%;
 }
 
-.Imagename {
-  background-color: #2a2a2e;
-  color: whitesmoke;
-  letter-spacing: 10px;
-  font-weight: 500;
-  font-size: 20px;
-  width: fit-content;
-  padding: 8px 70px;
-  position: absolute;
-  border-radius: 5px;
-  left: 125px;
-  top: 900px;
-}

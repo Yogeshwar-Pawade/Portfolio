@@ -14,8 +14,7 @@ function Contact() {
                 Get In <span className="hskills">Touch</span>
               </h2>
               <p className="Cdetail">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Provident possimus magnam praesentium odit corrupti. Vel.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe laborum atque, adipisci harum id?
               </p>
             </div>
           </div>
